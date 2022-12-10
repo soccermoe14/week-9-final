@@ -1,0 +1,157 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Family</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+     
+.team {
+	color: #5e5e55;
+	padding: 0 180px;
+}
+.team .card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+.team .card {
+	background:none;
+	border: none;
+}
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}  
+body {
+  background-color: darkgreen;
+}
+td {
+  color:black;
+  text-shadow: 2px .5px crimson;
+  font-weight: bold;
+}
+
+
+       
+    </style>
+</head>
+<body class="container">
+
+    <!--start bootstrap navbar-->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Brouillard Family Christmas</a>
+        <button class="navbar-toggler type=button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Family.html">Our Family</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Dinner.html">Dinner</a>
+                </li>
+                             
+            </ul>
+        </div>
+        
+    
+    </nav>
+
+
+    <!--end bootstrap navbar-->
+
+        <!--start bootstrap table-->
+
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Taylor</td>
+            <td>Brouillard</td>
+            <td>@hohono!</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Marin</td>
+            <td>Brouillard</td>
+            <td>@yomomma</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Pix</td>
+            <td>@yourmajesty</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td colspan="2">Oreo</td>
+            <td>@neuroticfeline</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <!--end bootstrap table-->
+
+    <!--bootstrap card layout family pics start-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="me xmas.png" alt="Card image">
+          <div class="card-body">
+              <h4 class="card-title">Yo Momma</h4>
+              <p class="card-text">Boss Lady</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="taylor xmas.png" alt="Card image">
+          <div class="card-body">
+              <h4 class="card-title">Taylor</h4>
+              <p class="card-text">The "Special" One</p>
+          </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="pix xmas.png" alt="Card image">
+          <div class="card-body">
+              <h4 class="card-title">Pix</h4>
+              <p class="card-text">Ruler of All</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="Oreo xmas.png" alt="Card image">
+          <div class="card-body">
+              <h4 class="card-title">Oreo</h4>
+              <p class="card-text">The Calm One</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+  
+
+  <!--bootstrap card layout family pics end-->
+    
+
+   
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+   
+</body>
+</html>

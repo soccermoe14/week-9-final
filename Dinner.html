@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+       a {
+        color: darkgreen;
+        font-weight: bold;
+        font-family: arial;
+       } 
+       option {
+        font-family: franklin gothic;
+       }
+       label {
+        font-family: franklin gothic;
+       }
+       body {
+        background-color: darkgreen;
+       }
+       img {
+        width: 500px;
+        height: 500px;
+        border-color: black;
+        border-style: solid;
+       }
+    </style>
+</head>
+<body class="container">
+
+    <!--start bootstrap navbar-->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Brouillard Family Christmas</a>
+        <button class="navbar-toggler type=button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collaps navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Family.html">Our Family</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Dinner.html">Dinner</a>
+                </li>
+            </ul>
+        </div>
+        
+    
+    </nav>
+
+    <!--end bootstrap navbar-->
+
+    <!--bootstrap custom form start-->
+
+    <form>
+        <div class="form-row align-items-center">
+          <div class="col-auto my-1">
+            <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+              <option selected>Choose...</option>
+              <option value="1">Prime Rib Dinner</option>
+              <option value="2">Christmas Goose Dinner</option>
+              <option value="3">Fancy Feast Salmon Pate</option>
+            </select>
+          </div>
+          <div class="col-auto my-1">
+            <div class="custom-control custom-checkbox mr-sm-2">
+              <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+              <label class="custom-control-label" for="customControlAutosizing">Remember my preference</label>
+            </div>
+          </div>
+          <div class="col-auto my-1">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+
+      <!--bootstrap custom form end-->
+
+      <div class="conatainer-fluid">
+        <div class="row">
+          <div class="col-lrg  6">
+            <img class="image" src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-96459_10-2696e4c.jpg?quality=90&resize=440,400"
+          </div>
+          
+          <div class="col-lrg 6">
+            <img class="image" src="https://www.foodandwine.com/thmb/BA0ef5ozHdbzigjQVdPAmN9n2QE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fw200512_xl_primerib-2000-6e855e113d884fa49643219767664003.jpg"
+          </div>
+        </div>
+      </div>
+    
+
+   
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+   
+</body>
+</html>
